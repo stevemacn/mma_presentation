@@ -1,0 +1,103 @@
+
+.step {
+    width: 1080px;
+    height: 750px;
+}
+
+.over {
+    width: 100px;
+    height: 100px;
+}
+
+.uncc { color: #00703C; }
+
+.step p { width: 720px; }
+.step h1 { font-size: 3.5em; }
+.step h2 { font-size: 2.5em;}
+.step h3 { 
+	font-size: 1.5em;
+	color: #00703C;
+}
+
+.logo {
+  	height: 225px;
+  	padding-left: 64px;
+  	padding-top: 32px;
+}
+
+#first h2 {
+  	text-align: right;
+	color: #4DBCE9; 
+}
+
+#first h4 {
+	color: #333;
+	text-align:center;
+	padding-top:2em;
+	
+}
+
+
+.fontface {
+	color: #4DBCE9;
+}
+
+.lcolumn {
+	float:left;
+	width:32%;
+	padding-right:2%;
+}
+.rcolumn {
+	float:right;
+	width:32%;
+}
+
+.lcolumn4 {
+	float: left;
+	width: 24%;
+	padding-right:2%;
+}
+
+.rcolumn4 {
+	float: right;
+	width: 22%;
+}
+
+#evaluation2 p {
+	font-size:1.25em;
+	width:100%;
+	word-break:keep-all;
+	color:#00703C;
+}
+
+#alternatives2 p {
+	font-size:1.25em;
+	width:100%;
+	word-break:keep-all;
+	color:#00703C;
+}
+
+.tbanner {
+	padding-bottom:1em;
+}
+
+#contact h2 {
+	color: #4DBCE9;
+}
+#contact em {
+	color: #00703C;
+}
+
+
+.impress-enabled .step {
+    margin: 0;
+    opacity: 0.75;
+
+    -webkit-transition: opacity 1s;
+    -moz-transition:    opacity 1s;
+    -ms-transition:     opacity 1s;
+    -o-transition:      opacity 1s;
+    transition:         opacity 1s;
+}
+
+.impress-enabled .step.active { opacity: 1 }

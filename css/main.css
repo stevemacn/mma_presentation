@@ -1,0 +1,33 @@
+body {
+  margin: 1em auto 4em auto;
+  width: 960px;
+  color: #333;
+  font-family: "Istok Web", sans-serif;
+  background-image:url(debut_light.png); 
+  background-repeat:repeat;
+} 
+
+body > p {
+  width: 720px;
+}
+
+h1, h2, footer {
+  font-family: "Oswald", serif;
+  color: #333;
+  text-rendering: optimizeLegibility;
+}
+
+hr {
+	color: #4DBCE9;	
+}
+
+a {
+  color: #4DBCE9;
+  text-decoration: none;
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
